@@ -1,11 +1,17 @@
 import React from 'react';
 import './App.css';
+import MyProvider from './context/MyProvider';
+import Header from './components/Header';
+import Section from './components/Section';
 
 const App = () => {
   return (
+    <MyProvider>
     <main>
-     <h1>Welcome to React</h1>
+     <Header />
+     <Section />
     </main>
+    </MyProvider>
   );
 }
 
