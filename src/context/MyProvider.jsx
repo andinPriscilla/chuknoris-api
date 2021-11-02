@@ -23,6 +23,10 @@ const MyProvider = (props) => {
 
         const url = "https://api.chucknorris.io/jokes/random?category=" 
 
+
+        const getJoke =() =>{
+            
+        }
         useEffect(() => {
             const getData =  async() =>{
                 try {

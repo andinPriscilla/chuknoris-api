@@ -9,7 +9,7 @@ const Header = () => {
         <div className="header">
             <h1>Chuck Norris Random Jokes</h1>
             <img src='https://image.pngaaa.com/68/3233068-middle.png' alt="chuck" /> 
-            <label>CHOOSE A CATEGORY</label>
+            <label>Please Choose a Category</label>
             <select value={select} onChange={(e) => setSelect(e.target.value)}>
                 {categories.map((category,index) => <option key={index} value={category}>{category}</option>)}
             </select>

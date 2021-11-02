@@ -3,6 +3,7 @@ import './App.css';
 import MyProvider from './context/MyProvider';
 import Header from './components/Header';
 import Section from './components/Section';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
     <main>
      <Header />
      <Section />
+     <Footer />
     </main>
     </MyProvider>
   );
